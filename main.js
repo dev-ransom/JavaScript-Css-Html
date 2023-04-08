@@ -1,4 +1,4 @@
-var lastLetterOfFirstName = "";
+
 var firstName = "Ransom";
-lastLetterOfFirstName = firstName[firstName.length-1];
+var lastLetterOfFirstName = firstName[firstName.length-4]
 console.log(lastLetterOfFirstName);
