@@ -8,6 +8,6 @@
 
 // console.log('Hello  your name is :' + fullName);
 
-const website = "google";
+const website = "linkedin";
 const url = 'https:www.' + website + '.com';
-console.log(url);;
+console.log(url);
