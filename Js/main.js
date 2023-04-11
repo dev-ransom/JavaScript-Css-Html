@@ -1,11 +1,3 @@
-let name = "Ransom";
-name = "Herrayo";
+const name = 'Ransom\'s life is in God\'s hand';
 console.log(name);
 
-var fullName = "Chioma ochornongo"
-fullName = "Peter Edwin"
-console.log(fullName);
-
-const lastName = "sunday";
-lastName = "opewoye";
-console.log(lastName);
