@@ -1,21 +1,14 @@
-
-// Numbers +=, -=, /=, ++, --, %
-// modulus (%) operator returns the remainder after integer division
-
-const firstName = "Ransom";
-const lastName = "Sunday";
-const fullName = "My name is " + lastName + " " + firstName;
-console.log(fullName);
-
-const number1 = 45;
-const number2 = 50;
-const result = number1 + number2;
-console.log(result);
-
-const value = firstName - lastName;
-console.log(value);
-
-let number3 = '45';
-let number4 = '9';
-const value1 = number3 + number4;
-console.log(value1);
+// const randomNumber = 13;
+// document.querySelector('.form').addEventListener('submit', function(e){
+// e.preventDefault();
+// let value = document.getElementById('amount').value;
+// value = parseInt(value);
+// console.log('Input value Type');
+// console.log(value);
+// console.log('Sum of Two Values');
+// console.log(randomNumber + value);
+// });
+const create = 45;
+console.log(typeof 'hello world');
+console.log(typeof create);
+console.log(typeof false);
