@@ -1,10 +1,15 @@
-const friends = ['Herryayo','Chioma','Famous','Emmanuel','Jeff','Ransom',23,undefined,null];
-let bestFriend = friends[1];
-friends[6] = 'Feranmi';
-console.log(friends[6]);
-console.log(friends);
-console.log(bestFriend);
-console.log(friends[3]);
+function myFunction(p1, p2){
+    
+    console.log(p1 * p2);
+}
 
-const person = {firstName:"John", lastName:"Doe", age:46};
-console.log(person.age);
+myFunction(4, 5);
+
+function greet(name){
+    console.log('Hello there' + name);
+}
+
+
+greet(' Ransom');
+greet(' Chioma');
+greet(' peter');
