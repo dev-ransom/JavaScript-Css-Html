@@ -1,15 +1,17 @@
 function myFunction(p1, p2){
     
-    console.log(p1 * p2);
+    return(p1 * p2);
 }
 
-myFunction(4, 5);
+console.log(myFunction(4, 5));
 
-function greet(name){
-    console.log('Hello there' + name);
+const Ransom = 'Ransom';
+const Chioma = 'chioma';
+const Peter = 'peter';
+
+function greet(name, lastname){
+    console.log('Hello there' + ' ' + lastname + '  ' + name);
 }
 
 
-greet(' Ransom');
-greet(' Chioma');
-greet(' peter');
+greet(Ransom, Chioma);
