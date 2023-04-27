@@ -1,10 +1,4 @@
-console.log(typeof declaredButUndefinedVariable);
-console.log(typeof {a : 1});
-console.log(typeof [1,2,3]);
-console.log(typeof new Date());
-console.log(typeof /regex/);
-console.log(typeof new Number(9));
-console.log(typeof new String("abc"));
-console.log(typeof function () {});
-console.log(typeof class c {});
-console.log(typeof null);
+const friends = ['Herryayo','Chioma','Famous','Emmanuel','Jeff','Ransom',23,undefined,null];
+let bestFriend = friends[1];
+console.log(bestFriend);
+console.log(friends[3]);
