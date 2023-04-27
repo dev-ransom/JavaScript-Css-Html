@@ -1,14 +1,10 @@
-// const randomNumber = 13;
-// document.querySelector('.form').addEventListener('submit', function(e){
-// e.preventDefault();
-// let value = document.getElementById('amount').value;
-// value = parseInt(value);
-// console.log('Input value Type');
-// console.log(value);
-// console.log('Sum of Two Values');
-// console.log(randomNumber + value);
-// });
-const create = 45;
-console.log(typeof 'hello world');
-console.log(typeof create);
-console.log(typeof false);
+console.log(typeof declaredButUndefinedVariable);
+console.log(typeof {a : 1});
+console.log(typeof [1,2,3]);
+console.log(typeof new Date());
+console.log(typeof /regex/);
+console.log(typeof new Number(9));
+console.log(typeof new String("abc"));
+console.log(typeof function () {});
+console.log(typeof class c {});
+console.log(typeof null);
