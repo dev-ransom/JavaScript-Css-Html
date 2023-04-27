@@ -15,3 +15,11 @@ function greet(name, lastname){
 
 
 greet(Ransom, Chioma);
+
+let x = ourFunction(4, 6);
+
+function ourFunction(a, b){
+    return a * b;
+}
+
+console.log(x);
