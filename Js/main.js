@@ -1,12 +1,14 @@
-
-const wallHeight = 80;
-function calculate(value){
-    console.log('The value in cm is : ' + value * 2.54 +'cm');
+function addValues(num1, num2){
+    return num1 + num2;
 }
 
-const width = calculate(100);
-const height = calculate(wallHeight);
+const firstValue = addValues(3,8);
+const secondValue = addValues(9,8);
 
-const dimension = [width, height];
-console.log(dimension[1]);
+const add = function (num1, num2){
+    return num1 + num2;
+}
+const thirdValue = add(78, 9);
+const values = [firstValue, secondValue, thirdValue];
+console.log(values);
 
