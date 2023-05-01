@@ -1,25 +1,12 @@
-function myFunction(p1, p2){
-    
-    return(p1 * p2);
+
+const wallHeight = 80;
+function calculate(value){
+    console.log('The value in cm is : ' + value * 2.54 +'cm');
 }
 
-console.log(myFunction(4, 5));
+const width = calculate(100);
+const height = calculate(wallHeight);
 
-const Ransom = 'Ransom';
-const Chioma = 'chioma';
-const Peter = 'peter';
+const dimension = [width, height];
+console.log(dimension[1]);
 
-function greet(name, lastname){
-    console.log('Hello there' + ' ' + lastname + '  ' + name);
-}
-
-
-greet(Ransom, Chioma);
-
-let x = ourFunction(4, 6);
-
-function ourFunction(a, b){
-    return a * b;
-}
-
-console.log(x);
