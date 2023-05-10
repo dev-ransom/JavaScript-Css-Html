@@ -100,3 +100,13 @@ for(let i = 0; i < len; i++){
 
 // console.log(person.family[0]);
 
+const num1 = 6;
+const num2 = 6;
+const result = num1 >= num2;
+if (num1 > num2){
+    console.log("first number is bigger than second one");
+}else if (!result){
+    console.log("first is equal to the second number");
+}else {
+    console.log("The second number is bigger than the first ")
+}
