@@ -1,13 +1,5 @@
-// const name = 'Ransom';
-// const age = 23;
 
-// if (name == 'Ransom' || age == 23){
-//     console.log("Hello there user")
-// }
-// else {
-//     console.log("wrong input")
-// }
-
+// eligibility for discount
 const isNewCustomer = true;
 const totalPurchaseAmount = 120;
 const isEligibleForDiscount = isNewCustomer || totalPurchaseAmount > 100;
@@ -18,4 +10,18 @@ if (isEligibleForDiscount){
 }
 else {
     console.log(notElig);
+}
+
+// Qualification for driver license
+
+let age = 20;
+let hasLicense = true;
+let hasCar = false;
+
+if (age >= 18 && hasLicense && !hasCar){
+    console.log("You can get a driver's license");
+}
+else{
+    console.log("You can't get a driver's license");
+
 }
