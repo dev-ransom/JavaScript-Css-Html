@@ -43,3 +43,17 @@ if (isValidLogin){
 else {
     console.log("invalid login");
 }
+
+
+
+let text = "Ransom Sunday"
+const relenght = text.length;
+const result = text.slice(0, 6);
+// console.log(text.length);
+// console.log(text.toLowerCase());
+// console.log(text.toUpperCase());
+// console.log(text.charAt(result-1));
+// console.log(text.indexOf('o'));
+// console.log(text.trim());
+
+document.getElementById("practice").innerHTML = result;
