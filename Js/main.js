@@ -2,4 +2,5 @@ const familyName = ["Sunday","Esther","Success","Stanley","Daniel","Ransom","Des
 const lastName = ['Asukwo','Idung','Usuyak'];
 const fullName = familyName.concat(lastName);
 const rever = fullName.reverse();
-document.getElementById("practice").innerHTML = rever;
+const specificName = fullName.splice(0,5)
+document.getElementById("practice").innerHTML = specificName;
